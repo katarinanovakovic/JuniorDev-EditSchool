@@ -1,0 +1,36 @@
+.workshop-filter{
+    display: flex;
+    justify-content: space-around;
+}
+.filter-button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border:solid 1px rgb(184, 184, 184);
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+  }
+  
+  .filter-button:hover {
+    background-color: rgb(94, 65, 199);
+    color: #fff;
+    border-color: rgb(94, 65, 199);
+  }
+.aktivan{
+    background-color: rgb(94,65,199);
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border:solid 1px rgb(184, 184, 184);
+    margin-top: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+
+}
+

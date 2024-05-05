@@ -1,0 +1,76 @@
+.main-container{
+    background-color: white;
+    padding: 50px;
+    color:rgb(94,65,199);
+    font-family: 'Courier New', Courier, monospace ;
+    border-radius: 25px;
+     
+    
+}
+.home-title{
+    text-align: center;
+    font-weight:500;
+    font-size: 85px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+.home-site-name{
+    text-align: center;
+    font-weight:900;
+    font-size: 95px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.h2-home{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.main-text{
+    display: flex;
+    
+}
+
+.main-text-left{
+    flex:1;
+    padding: 20px;
+    height: 450px;
+    margin-left: 0px;
+    margin-right: 40px;
+    margin-top: 80px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.home-slika{
+    width: 400px;
+    border-radius: 25px;
+    margin-bottom: 0;
+    
+}
+
+.go-button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    text-decoration: none;
+}
+
+.admin-checkbox label{
+    display: flex;
+    justify-content: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(94,65,199);
+    
+}
+
+.admin-checkbox {
+    margin-right: 25px;
+}
+
+
+

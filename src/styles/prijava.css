@@ -1,0 +1,39 @@
+.join-button {
+    background-color: transparent;
+    color: rgb(94, 65, 199);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid rgb(94, 65, 199);
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+  }
+  
+  .join-button:hover {
+    background-color: rgb(94, 65, 199);
+    color: #fff;
+    border-color: rgb(94, 65, 199);
+  }
+  
+  .button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .prijava-forma{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  input{
+    border-radius: 20px;
+    padding: 7px;
+    border-color: rgb(94, 65, 199);
+  }
+  .input-el{
+    margin:2px;
+  }
+

@@ -1,0 +1,55 @@
+.workshop-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(calc(33.33% - 20px), 1fr)); /* Postavlja grid sa 3 stupca, ali se automatski prilagođava širini prozora */
+    gap: 20px;
+    margin: 40px;
+}
+.workshop-container {
+    width: 350px;
+    height: auto;
+    margin: 0;
+    padding: 0px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 0px rgba(128, 128, 128, 0.5);
+    text-align: center;
+    flex-grow: 1; /* Omogućava radionicama da rastu i zauzmu raspoloživi prostor */
+}
+.workshop-name{
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    padding: 20px;
+
+}
+.polygon{
+    background-color: rgb(94,65,199);
+    clip-path:polygon(0 0, 100% 0, 100% 60%, 0 100%);
+    padding-bottom: 80px;
+    max-height: fit-content;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ 
+
+}
+.workshop-opis{
+    color:rgb(206, 197, 240);
+    font-size: 18px;
+    text-align: left;
+    margin: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+.workshop-body{
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+.workshop-container:last-child {
+    margin-bottom: 0; /* Ukloni dodatni razmak ispod zadnjeg okvira */
+}
+
+

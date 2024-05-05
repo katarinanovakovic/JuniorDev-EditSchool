@@ -1,0 +1,122 @@
+{
+  "radionice": [
+    {
+      "id": "juniordev",
+      "ime": "JuniorDev",
+      "datum": "01.01.2025",
+      "tema": "react",
+      "tezina": "junior",
+      "predavac": "John Smith",
+      "opis": "The JuniorDev course covers the fundamentals of building dynamic user interfaces using the React library, emphasizing concepts like component-based architecture, state management, and the Virtual DOM",
+      "broj_prijava": 4
+    },
+    {
+      "id": "express.js",
+      "ime": "Express.js",
+      "datum": "01.01.2025",
+      "tema": "express",
+      "tezina": "senior",
+      "predavac": "Sarah Johnson",
+      "opis": "The Express.js course provides comprehensive training on building web applications and APIs using the Express framework for Node.js, focusing on concepts such as routing, middleware, and template engines.",
+      "broj_prijava": 3
+    },
+    {
+      "id": "node.js",
+      "ime": "Node.js",
+      "datum": "01.01.2025",
+      "tema": "node.js",
+      "tezina": "senior",
+      "predavac": "John Smith",
+      "opis": "A course in Node.js typically covers the fundamentals of server-side JavaScript programming, including topics such as asynchronous programming, event-driven architecture, file system operations, and networking.",
+      "broj_prijava": 2
+    },
+    {
+      "id": "php",
+      "ime": "PHP",
+      "datum": "01.07.2024",
+      "tema": "php",
+      "tezina": "senior",
+      "predavac": "Sarah Johnson",
+      "opis": "Learn basic syntax and data structures of PHP, variables, logic, iteration, arrays, error handling, and superglobal variables, among other elements.Explore the basic structure of a web application, and how a web browser interacts with a web server.",
+      "broj_prijava": 0
+    },
+    {
+      "id": "python",
+      "ime": "Python",
+      "datum": "01.08.2024",
+      "tema": "python",
+      "tezina": "junior",
+      "predavac": "Anna Malan",
+      "opis": "Learn Python - the most popular programming language and for Data Science and Software Development.Apply Python programming logic Variables, Data Structures, Branching, Loops, Functions, Objects & Classes.",
+      "broj_prijava": 1
+    }
+  ],
+  "predavaci": [
+    {
+      "id": "predavac_1",
+      "ime": "John Smith",
+      "zanimanje": "Web developer",
+      "radionica": "JuniorDev",
+      "biografija": "John Smith is a seasoned software engineer specializing in React development. His passion for coding ignited during his high school years when he tinkered with basic HTML and CSS. He graduated in Faculty of Elecetrical Engineerin, Mechanical Engineering and Naval Architecture in Split, Croatia",
+      "organizacija": "Digitalna Dalmacija",
+      "email": "johnsmith@gmail.com",
+      "fotografija": "https://i.pinimg.com/564x/4d/7a/66/4d7a66362a36c68e35e57afe4221e88c.jpg"
+    },
+    {
+      "id": "predavac_2",
+      "ime": "Sarah Johnson",
+      "zanimanje": "Full-stack developer",
+      "radionica": "Express.js",
+      "biografija": "Sarah Johnson is a dynamic full stack developer with a passion for building robust web applications using Express.js. Born and raised in New York City, Sarah's journey into the world of programming began during her college years at Columbia University, where she pursued a degree in Computer Engineering.",
+      "organizacija": "Google",
+      "email": "sarahjohnson@gmail.com",
+      "fotografija": "https://i.pinimg.com/474x/af/d2/cb/afd2cb16d313c1b7893aeeae9b453cb0.jpg"
+    },
+    {
+      "id": "predavac_3",
+      "ime": "Anna Malan",
+      "zanimanje": "Python programmer",
+      "radionica": "Python",
+      "biografija": " Professor Anna teaches Python programming. She's passionate about coding and loves guiding her students through the ins and outs of Python. With her patient demeanor and clear explanations, she makes learning Python a breeze for her students. Sarah's classes are always engaging, filled with hands-on activities and practical examples. She's a supportive mentor who encourages her students to explore their creativity and problem-solving skills through programming.",
+      "organizacija": "Loginsoft",
+      "email": "annamalan@gmail.com",
+      "fotografija": "https://i.pinimg.com/564x/6e/27/d2/6e27d21f73e616456826c6ae6d7dbd0f.jpg"
+    }
+  ],
+  "tezine": [
+    {
+      "id": "junior",
+      "ime": "Junior"
+    },
+    {
+      "id": "mid",
+      "ime": "Mid"
+    },
+    {
+      "id": "senior",
+      "ime": "Senior"
+    }
+  ],
+  "teme": [
+    {
+      "id": "react",
+      "ime": "React"
+    },
+    {
+      "id": "express",
+      "ime": "Express"
+    },
+    {
+      "id": "node_js",
+      "ime": "Node.js"
+    },
+    {
+      "id": "php",
+      "ime": "PHP"
+    },
+    {
+      "id": "python",
+      "ime": "Python"
+    }
+  ]
+}

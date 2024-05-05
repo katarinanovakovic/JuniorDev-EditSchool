@@ -1,0 +1,74 @@
+.add-workshop{
+    display: block;
+    padding: 15px;
+    margin-top:40px;
+    margin-bottom: 100px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.administration-layout{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.izbornik{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+input, button{
+    display: block;
+    
+}
+
+.adm-button {
+    background-color: transparent;
+    color: rgb(94, 65, 199);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid rgb(94, 65, 199);
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+  
+  .adm-button:hover {
+    background-color: rgb(94, 65, 199);
+    color: #fff;
+    border-color: rgb(94, 65, 199);
+  }
+
+  .adm-input{
+    margin:3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+  }
+  .adm-select{
+    font-size: 14px;
+    margin: 5px auto;
+    border: 2px solid rgb(94, 65, 199);
+    border-radius: 15px;
+    padding: 4px;
+  }
+
+  .prikaz-br-prijava{
+    margin: 10px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    border-right: 2px solid rgb(94, 65, 199);
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .ime-broj{
+    margin: 10px;
+
+  }
+  .admin-title{
+    color: rgb(94, 65, 199);
+  }

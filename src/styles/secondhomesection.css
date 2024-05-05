@@ -1,0 +1,48 @@
+.second-home-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(94,65,199);
+    color: white;
+    border-radius: 20px;
+    height: auto;
+    margin-top: 0;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left-container, .middle-container, .right-container{
+    padding-top: 30px
+}
+
+.middle-container{
+    color:white;
+
+}
+.middle-container ul{
+    list-style: none;
+    text-align: center;
+    
+
+}
+.footer-links{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+i{
+    padding: 7px;
+    font-size: 30px;
+}
+.right-container{
+    text-align: center;
+
+}
+.left-container{
+    text-align: center;
+    font-weight:800;
+    font-size: 45px;
+    margin-bottom: 0;
+    line-height: normal;
+}

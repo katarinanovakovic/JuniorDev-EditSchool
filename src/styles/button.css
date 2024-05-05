@@ -1,0 +1,20 @@
+.custom-button {
+    background-color: transparent;
+    color: rgb(94, 65, 199);
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(94, 65, 199);
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+  }
+
+
+  
+  .custom-button:hover {
+    background-color: rgb(94, 65, 199);
+    color: #fff;
+    border-color: rgb(94, 65, 199);
+  }
+  
